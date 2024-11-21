@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dream Canvas | Art by Muzaffar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Dream Canvas</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Welcome to Dream Canvas</h2>
+            <p>Explore the world of black-and-white art inspired by motorcycles, bikes, and more.</p>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="section">
+        <div class="container">
+            <h2>Shop Artwork</h2>
+            <div class="gallery">
+                <!-- Example Artwork Item -->
+                <div class="artwork">
+                    <img src="bike-art1.jpg" alt="Bike Artwork 1">
+                    <p>Bike Artwork #1</p>
+                    <p><strong>$50</strong></p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="artwork">
+                    <img src="bike-art2.jpg" alt="Bike Artwork 2">
+                    <p>Bike Artwork #2</p>
+                    <p><strong>$60</strong></p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more artworks as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Muzaffar. I'm an artist passionate about motorcycles, bikes, and creating black-and-white art. Each piece is designed to capture the power and beauty of the bike world.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Dream Canvas | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
